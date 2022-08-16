@@ -8,10 +8,18 @@ public class CaesarCipher {
         String shiftedAlphabet = alphabet.substring(index) + alphabet.substring(0, index);
         for (int i = 0; i < encrypted.length(); i++) {
             char currChar = encrypted.charAt(i);
-            int idx = alphabet.indexOf(currChar);
-            if (idx != -1) {
-                char newChar = shiftedAlphabet.charAt(idx);
-                encrypted.setCharAt(i, newChar);
+            if (Character.isUpperCase(currChar)) {
+                int idx = alphabet.indexOf(currChar);
+                if (idx != -1) {
+                    char newChar = shiftedAlphabet.charAt(idx);
+                    encrypted.setCharAt(i, newChar);
+                }
+            } else if (Character.isLowerCase(currChar)) {
+                int idxl = (alphabet.toLowerCase()).indexOf(currChar);
+                if (idxl != -1) {
+                    char newChar = (shiftedAlphabet.toLowerCase()).charAt(idxl);
+                    encrypted.setCharAt(i, newChar);
+                }
             }
         }
         return encrypted.toString();
