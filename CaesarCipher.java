@@ -30,7 +30,7 @@ public class CaesarCipher {
         System.out.println("Enter a key: ");
         int key = sc.nextInt();
         sc.close();
-        
+
         FileResource fr = new FileResource();
         String message = fr.asString();
         String encrypted = encrypt(message, key);
