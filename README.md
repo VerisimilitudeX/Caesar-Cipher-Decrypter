@@ -1,5 +1,9 @@
 # Caesar Cipher
 
+## About
+
+To decrypt an encrypted Caesar Cipher string, most Caesar Cipher decrypters require the user to enter a key or use the bruteforce method (more on that later in this document). Using statistical models, this software automatically decrypts Caesar Ciphers without the use of a key.
+
 ## History and usage
 
 The _Caesar Cipher_ was named after Julius Caesar (100 B.C. – 44 B.C). He would use the cipher for secret communication (protect messages of military significance). The Caesar Cipher is a **substitution cipher**. Originally, Julius Caesar would use a shift of three to encrypt/decrypt a message. The Caesar Cipher encrypts a message using an affine function : f(x) = 1x + b.
