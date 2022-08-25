@@ -2,7 +2,7 @@
 
 # Caesar Cipher
 
-[![wakatime](https://wakatime.com/badge/github/Verisimilitude11/Auto-Decrypt-Caesar-Cipher.svg)](https://wakatime.com/badge/github/Verisimilitude11/Auto-Decrypt-Caesar-Cipher)
+[![wakatime](https://wakatime.com/badge/github/Verisimilitude11/Caesar-Cipher-Decrypter.svg)](https://wakatime.com/badge/github/Verisimilitude11/Caesar-Cipher-Decrypter)
 
 ## About
 
