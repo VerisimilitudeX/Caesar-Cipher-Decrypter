@@ -1,4 +1,8 @@
+###### For a higher level encrypter, please check out my [Vigenère Cipher software](https://github.com/Verisimilitude11/Vigenere-Cipher), which uses an advanced version of the Caesar Cipher.
+
 # Caesar Cipher
+
+[![wakatime](https://wakatime.com/badge/github/Verisimilitude11/Caesar-Cipher-Decrypter.svg)](https://wakatime.com/badge/github/Verisimilitude11/Caesar-Cipher-Decrypter)
 
 ## About
 
