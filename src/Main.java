@@ -8,7 +8,7 @@ public class Main {
         System.out.println(cc.autoDecrypt(""));
         System.out.println(cc.encryptTwoKeys("", 21, 8));
         System.out.println(cc.decryptTwoKeys("", 21, 8));
-        System.out.println(cc.autoDecryptTwoKeys(""));\
+        System.out.println(cc.autoDecryptTwoKeys(""));
         
         // If the program is not working, uncomment the following line to bruteforce the key. 
         // cc.bruteForce("");
