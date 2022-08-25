@@ -2,6 +2,8 @@
 
 # Caesar Cipher
 
+[![wakatime](https://wakatime.com/badge/github/Verisimilitude11/Auto-Decrypt-Caesar-Cipher.svg)](https://wakatime.com/badge/github/Verisimilitude11/Auto-Decrypt-Caesar-Cipher)
+
 ## About
 
 To decrypt an encrypted Caesar Cipher string, most Caesar Cipher decrypters require the user to enter a key or use the bruteforce method (more on that later in this document). Using statistical models, this software automatically decrypts Caesar Ciphers without the use of a key.
